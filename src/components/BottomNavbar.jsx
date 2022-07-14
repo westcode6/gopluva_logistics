@@ -36,9 +36,9 @@ export default function BottomNavbar() {
 
           <NavItem
             title="Profile"
-            to="/"
+            to="/profile"
             icon={<FaUserAstronaut className="text-xl mb-2" />}
-            active={location.pathname === "/Profile"}
+            active={location.pathname === "/profile"}
           />
         </div>
       </aside>

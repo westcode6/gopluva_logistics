@@ -12,7 +12,7 @@ export default function SplashScreen() {
         <span className="text-xl"><IoIosArrowBack /></span>
         </Link>
 
-        <Link to={"#"}>
+        <Link to={"/home"}>
             <span className="text-lg font-semibold">Skip</span>
         </Link>
     </header>
@@ -28,7 +28,7 @@ export default function SplashScreen() {
 
     </div>
 
-    <div className="flex items-center justify-between">
+    <div className="flex items-center justify-between px-4">
         <div className="space-x-2 flex">
             <span className="block w-3 h-3 rounded-full base-color-bg"></span>
 

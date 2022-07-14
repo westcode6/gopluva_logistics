@@ -5,11 +5,11 @@ export default function SplashScreen2() {
 
   <section className="w-full md:max-w-lg m-auto  h-screen md:h-full px-4 py-8 flex flex-col justify-between">
     <header className="flex justify-between items-center">
-    <Link to={"/splashScreen"}>
+    <Link to={"/"}>
         <span className="text-xl"><IoIosArrowBack /></span>
         </Link>
 
-        <Link to={"#"}>
+        <Link to={"/home"}>
             <span className="text-lg font-semibold">Skip</span>
         </Link>
     </header>
@@ -24,7 +24,7 @@ export default function SplashScreen2() {
         <div className="py-8"></div>
     </div>
 
-    <div className="flex items-center justify-between">
+    <div className="flex items-center justify-between px-4">
         <div className="space-x-2 flex">
             <span className="block w-3 h-3 rounded-full bg-gray-400"></span>
 

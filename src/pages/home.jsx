@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <>
       <section className="max-w-lg m-auto">
-        <header className="bg-blue-500 p-3 rounded-b-3xl shadow-md">
+        <header className="bg-sky-500 p-3 rounded-b-3xl shadow-md">
           <div className="flex items-center justify-between">
-            <span className="p-2 inline-block text-white bg-blue-400 rounded-md">
+            <span className="p-2 inline-block text-white bg-sky-400 rounded-md">
               <RiDashboardLine />
             </span>
 
@@ -28,11 +28,11 @@ export default function Home() {
             <div className="relative mt-7 mb-2">
               <input
                 type="text"
-                className="w-full bg-blue-100 rounded-2xl pl-3 py-3"
+                className="w-full bg-sky-200 rounded-2xl shadow-2xl border border-sky-200 pl-3 py-3"
                 placeholder="Search for a location"
               />
 
-              <span className="absolute bg-white base-color text-2xl p-3 right-0 shadow-xl rounded-2xl top-0">
+              <span className="absolute bg-white base-color text-2xl p-3 right-0  rounded-2xl top-0">
                 <BiSearch />
               </span>
             </div>

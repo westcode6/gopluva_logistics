@@ -28,6 +28,10 @@ h1,h2,h3,h4,h5 {
   @apply mb-2
 }
 
+h2{
+  @apply text-2xl font-semibold;
+}
+
 p, span {
   @apply text-sm text-gray-600
 }

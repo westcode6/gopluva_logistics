@@ -4,12 +4,14 @@ import Home from "./pages/home";
 import SplashScreen from "./pages/Onboarding/splashScreen";
 import SplashScreen2 from "./pages/Onboarding/splashScreen2";
 import SplashScreen3 from "./pages/Onboarding/splashScreen3";
+import Profile from "./pages/profile";
 
 function App() {
   return (
     <React.Fragment>
       <Routes>
         <Route path="/" element={<SplashScreen />} />
+        <Route path="/profile" element={<Profile />} />
 
         <Route path="/home" element={<Home />} />
 
