@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.manage_account_links {
+@apply flex flex-col items-center justify-center font-semibold transform transition hover:-translate-y-0.5
+}
+.manage_account_icons {
+@apply w-10 h-10 rounded-xl flex items-center justify-center bg-blue-50 border shadow text-blue-700  hover:shadow-sm
+}
+
+@layer base {
+  html, body {
+    font-family: 'Albert Sans', sans-serif;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+input::placeholder {
+ @apply text-gray-500
+}
+
+h1,h2,h3,h4,h5 {
+  @apply mb-2
+}
+
+p, span {
+  @apply text-sm text-gray-600
+}
+
+button:hover {
+  @apply transform transition -translate-y-1
+}
+
+.base-color {
+  color: #00afef;
+}
+
+.base-color-bg {
+  background: #00afef;
+}
