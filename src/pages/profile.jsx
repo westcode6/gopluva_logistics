@@ -65,7 +65,7 @@ export default function Profile() {
             <div className="flex items-center justify-between w-full ml-8">
               <div>
                 <h3 className="text-lg font-semibold mb-0">Your Details</h3>
-                <span className="text-sm font-semibold">
+                <span className="text-xs font-semibold">
                   Name, Phone, Address, Email
                 </span>
               </div>
@@ -84,7 +84,7 @@ export default function Profile() {
             <div className="flex items-center justify-between w-full ml-8">
               <div>
                 <h3 className="text-lg font-semibold mb-0">Settings</h3>
-                <span className="text-sm font-semibold">
+                <span className="text-xs font-semibold">
                   Make Changes To Settings
                 </span>
               </div>
@@ -116,7 +116,7 @@ export default function Profile() {
             <div className="flex items-center justify-between w-full ml-8">
               <div>
                 <h3 className="text-lg font-semibold mb-0">Notification</h3>
-                <span className="text-sm font-semibold">
+                <span className="text-xs font-semibold">
                   Get Instant Delivery Status
                 </span>
               </div>
