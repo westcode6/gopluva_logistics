@@ -5,6 +5,7 @@ import SplashScreen from "./pages/Onboarding/splashScreen";
 import SplashScreen2 from "./pages/Onboarding/splashScreen2";
 import SplashScreen3 from "./pages/Onboarding/splashScreen3";
 import Profile from "./pages/profile";
+import SendParcel from "./pages/sendParcel";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/profile" element={<Profile />} />
 
         <Route path="/home" element={<Home />} />
+        <Route path="/parcel" element={<SendParcel />} />
 
         <Route path="/splashScreen2" element={<SplashScreen2 />} />
 

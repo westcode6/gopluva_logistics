@@ -3,6 +3,7 @@ import {BsMailbox2, BsWallet2 } from "react-icons/bs";
 import { RiDashboardLine } from "react-icons/ri";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import BottomNavbar from "../components/BottomNavbar";
+import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <>
@@ -45,17 +46,24 @@ export default function Home() {
           </h2>
 
           <div className="bg-gray-100 border mt-4 rounded-md shadow px-3 py-4 flex items-center justify-between">
-            <div className="flex items-center justify-between">
-              <span className="base-color text-3xl">
+            <div className="w-full">
+              <Link to={"/parcel"}>
+             <div className="flex items-center justify-between">
+                <div  className="flex">
+                <span className="base-color inline-block text-3xl">
                 <BsMailbox2 />
               </span>
 
               <h4 className="text-md pl-6 pt-2 font-semibold">Send Parcel</h4>
-            </div>
 
-            <span className="text-xl">
+                </div>
+            <span className="text-xl inline-block">
               <FaLongArrowAltRight />
             </span>
+            </div>
+
+            </Link>
+             </div>
           </div>
 
 
