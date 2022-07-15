@@ -28,6 +28,16 @@ h1,h2,h3,h4,h5 {
   @apply mb-2
 }
 
+tbody {
+  @apply w-full
+}
+thead tr td, tbody tr td {
+  @apply w-8 h-6 flex items-center justify-center text-center
+}
+tbody tr td:hover {
+  @apply w-8 h-8 text-center bg-sky-500 text-white  rounded-full flex items-center justify-center;
+}
+
 h2{
   @apply text-2xl font-semibold;
 }
