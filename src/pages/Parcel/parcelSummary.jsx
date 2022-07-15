@@ -20,7 +20,7 @@ export default function ParcelSummary() {
             <span className="pl-2 text-lg text-black">Product Information</span>
           </h3>
 
-          <div className="w-full pt-4 pb-8 border-b-2 border-gray-300 flex items-center justify-between">
+          <div className="w-full pt-4 pb-6 border-b-2 border-gray-300 flex items-center justify-between">
             <div className="flex flex-col">
               <h4 className="text-sm font-semibold text-gray-500">From:</h4>
 
@@ -68,7 +68,7 @@ export default function ParcelSummary() {
             </span>
           </h3>
 
-          <div className="w-full pt-4 pb-8 border-b-2 border-gray-300 flex flex-col  justify-between">
+          <div className="w-full pt-4 pb-6 border-b-2 border-gray-300 flex flex-col  justify-between">
             <div className="flex flex-col">
               <h4 className="text-sm font-semibold text-gray-500">
                 Pickup Address
