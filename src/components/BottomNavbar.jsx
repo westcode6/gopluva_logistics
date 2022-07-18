@@ -2,8 +2,8 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import PropTypes from "prop-types";
 import { MdHomeFilled} from "react-icons/md";
-import {BsWallet2, BsMailbox2 } from "react-icons/bs"
-import {FaUserAstronaut} from 'react-icons/fa'
+import {BsWallet2} from "react-icons/bs"
+import {FaUserAstronaut, FaTruck} from 'react-icons/fa'
 export default function BottomNavbar() {
   const location = useLocation();
 
@@ -22,16 +22,16 @@ export default function BottomNavbar() {
 
           <NavItem
             title="Wallet"
-            to="/product/add"
+            to="/wallet"
             icon={<BsWallet2 className="text-xl mb-2" />}
-            active={location.pathname === "/Wallet"}
+            active={location.pathname === "/wallet"}
           />
 
           <NavItem
-            title="Parcel"
-            to="/inventory/"
-            icon={<BsMailbox2  className="text-xl mb-2" />}
-            active={location.pathname === "/Parcel"}
+            title="Delivery"
+            to="/delivery"
+            icon={<FaTruck  className="text-xl mb-2" />}
+            active={location.pathname === "/delivery"}
           />
 
           <NavItem

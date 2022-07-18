@@ -7,7 +7,13 @@ import SplashScreen3 from "./pages/Onboarding/splashScreen3";
 import Profile from "./pages/profile";
 import SendParcel from "./pages/Parcel/sendParcel";
 import ParcelSummary from "./pages/Parcel/parcelSummary";
+import Wallet from "./pages/wallet";
+import Notification from "./pages/Wallet/notifications";
 
+
+// Animate.css import
+import 'animate.css';
+import Delivery from "./pages/delivery";
 function App() {
   return (
     <React.Fragment>
@@ -18,6 +24,9 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/parcel" element={<SendParcel />} />
         <Route path="/parcelSummary" element={<ParcelSummary />} />
+        <Route path="/wallet" element={<Wallet />} />
+        <Route path="/notifications" element={<Notification />} />
+        <Route path="/delivery" element={<Delivery />} />
 
         <Route path="/splashScreen2" element={<SplashScreen2 />} />
 

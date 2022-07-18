@@ -6,7 +6,7 @@ import BottomNavbar from "../components/BottomNavbar";
 export default function Profile() {
   return (
     <>
-      <section className="px-4 py-8 flex flex-col justify-between h-full">
+      <section className="w-full px-4 py-8 max-w-lg m-auto animate__animated animate__faster animate__slideInDown flex flex-col justify-between h-full">
         <header>
           <div className="flex items-center justify-between">
             <span>
@@ -49,8 +49,8 @@ export default function Profile() {
               </div>
 
               <div className="w-32 text-center border-l-2 pl-4 border-gray-600">
-                <h4 className="text-sm font-semibold">Balance</h4>
-                <span className="text-xs font-bold">$ 8500</span>
+                <h4 className="text-sm font-semibold">Deliveries</h4>
+                <span className="text-xs font-bold">10</span>
               </div>
             </div>
           </div>

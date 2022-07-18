@@ -1,11 +1,10 @@
-import { IoIosArrowBack, IoIosArrowDown } from "react-icons/io";
-import { MdDeliveryDining } from "react-icons/md";
-import { FaTruck, FaTruckMoving } from "react-icons/fa";
+import { IoIosArrowBack} from "react-icons/io";
+
 import { Link } from "react-router-dom";
 export default function ParcelSummary() {
   return (
     <>
-      <section className="px-4 py-8 max-w-lg m-auto">
+      <section className="w-full px-4 py-8 max-w-lg m-auto animate__animated animate__faster animate__slideInRight">
         <div className="flex items-center">
           <Link to={'/parcel'}>
           <span className="inline-block text-xl text-gray-800 p-1 rounded-full bg-gray-100 shadow border ">

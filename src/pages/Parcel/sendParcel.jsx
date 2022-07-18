@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function SendParcel() {
   return (
     <>
-      <section className="px-4 py-8 max-w-lg m-auto">
+      <section className="w-full px-4 py-8 max-w-lg m-auto animate__animated animate__faster animate__slideInRight">
         <div className="flex items-center">
         <Link to={'/home'}>
           <span className="inline-block text-xl mt-2 text-gray-800 p-1 rounded-full bg-gray-100 shadow border ">
@@ -14,7 +14,7 @@ export default function SendParcel() {
             <h2 className="pl-8 mb-0">Pickup Location</h2>
         </div>
 
-        <header className="py-8 px-2 mt-8 flex items-center">
+        <header className="py-8 px-2 mt-4 flex items-center">
             <div className="flex flex-col items-start">
                 <span className="w-3 h-3 rounded-full bg-black border shadow-sm"></span>
                 <span className="h-16 ml-1 border border-dotted border-gray-400"></span>
