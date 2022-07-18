@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <>
-      <section className="max-w-lg m-auto">
+      <section className="w-full max-w-lg m-auto animate__animated animate__faster animate__slideInDown ">
         <header className="bg-sky-500 p-3 rounded-b-3xl shadow-md">
           <div className="flex items-center justify-between">
             <span className="p-2 inline-block text-white bg-sky-400 rounded-md">
