@@ -66,23 +66,23 @@ export default function Wallet() {
               <h3 className="text-md font-bold tracking-wide">Top Up</h3>
               <div className="w-full mt-2  flex items-center justify-between">
                 <div className=" flex flex-col items-center ">
-                  <div className="border-r-2 border-gray-400  pr-8">
+                  <div className="">
                     <span className="bg-sky-300   text-black p-2 rounded-full inline-block text-xl">
                       <BsCreditCard2Back />
                     </span>
                   </div>
 
-                  <h4 className="text-xs font-bold mt-1 pr-8">With Card</h4>
+                  <h4 className="text-xs font-bold mt-1">With Card</h4>
                 </div>
 
                 <div className="flex flex-col items-center ">
-                  <div className="border-r-2 border-gray-400  pr-8">
+                  <div className="border-r-2 border-l-2 border-gray-400  px-8">
                     <span className="bg-sky-300 text-black p-2 rounded-full inline-block text-xl">
                       <TiHomeOutline />
                     </span>
                   </div>
 
-                  <h4 className="text-xs font-bold mt-1 pr-8">With Bank</h4>
+                  <h4 className="text-xs font-bold mt-1 px-8">With Bank</h4>
                 </div>
 
                 <div className="flex flex-col items-center ">
