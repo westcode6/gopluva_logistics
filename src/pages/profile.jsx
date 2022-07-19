@@ -6,7 +6,7 @@ import BottomNavbar from "../components/BottomNavbar";
 export default function Profile() {
   return (
     <>
-      <section className="w-full px-4 py-8 max-w-lg m-auto animate__animated animate__faster animate__slideInDown flex flex-col justify-between h-full">
+      <section className="w-full px-4 py-8 max-w-lg m-auto animate__animated animate__faster animate__fadeIn flex flex-col justify-between h-full">
         <header>
           <div className="flex items-center justify-between">
             <span>

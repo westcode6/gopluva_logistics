@@ -4,7 +4,7 @@ import BottomNavbar from "../components/BottomNavbar";
 export default function Delivery() {
   return (
     <>
-      <section className="w-full px-4 py-8 max-w-lg m-auto animate__animated animate__faster animate__slideInDown">
+      <section className="w-full px-4 py-8 max-w-lg m-auto animate__animated animate__faster animate__fadeIn">
         <header className="flex items-center justify-between">
           <h1 className="text-xl text-gray-800 font-bold ">All</h1>
           <h1 className="text-xl text-stone-400 font-semibold ">Ongoing</h1>
