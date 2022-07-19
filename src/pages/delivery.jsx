@@ -26,7 +26,7 @@ export default function Delivery() {
                 <h2 className="text-base font-bold">In Transit</h2>
                 <span className="text-sm text-gray-500">14 Nov, 2022</span>
                 <h3 className="text-base text-sky-500 font-bold">
-                  Okota, Lagos
+                  Lekki, Lagos
                 </h3>
               </div>
             </div>
@@ -73,7 +73,7 @@ export default function Delivery() {
                 <h2 className="text-base text-green-500 font-bold">Delivered</h2>
                 <span className="text-sm text-gray-500">12 Nov, 2022</span>
                 <h3 className="text-base text-sky-500 font-bold">
-                  Okota, Lagos
+                  Lekki, Lagos
                 </h3>
               </div>
             </div>
